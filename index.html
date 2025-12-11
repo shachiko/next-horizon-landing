@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Horizon - Hướng nghiệp UK Academy</title>
+    <meta name="description" content="Ứng dụng hướng nghiệp tích hợp AI dành cho học sinh THPT">
+    
+    <!-- Icon trên thanh trình duyệt -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+    <style>
+        /* Thiết lập để iframe tràn màn hình, không hiện thanh cuộn kép */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Ẩn thanh cuộn của trang mẹ */
+            background-color: #ffffff;
+        }
+        
+        iframe {
+            display: block;       /* Loại bỏ khoảng trắng dưới iframe */
+            width: 100%;          /* Rộng 100% */
+            height: 100vh;        /* Cao 100% màn hình */
+            border: none;         /* Bỏ viền xấu xí */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- THAY ĐỔI ĐƯỜNG LINK DƯỚI ĐÂY THÀNH LINK APP STREAMLIT CỦA BẠN -->
+    <!-- Ví dụ: src="https://next-horizon-career.streamlit.app/?embed=true" -->
+    <!-- Thêm /?embed=true vào cuối link để giấu bớt thanh công cụ của Streamlit -->
+    
+    <iframe src="https://nexthorizon-ukhalong.streamlit.app/?embed=true">
+        Trình duyệt của bạn không hỗ trợ Iframe. Vui lòng truy cập trực tiếp tại <a href="https://nexthorizon-ukhalong.streamlit.app">đây</a>.
+    </iframe>
+
+</body>
+</html>
